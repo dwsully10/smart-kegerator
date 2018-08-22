@@ -13,7 +13,7 @@
 #include "sys/types.h"
 #include <QCloseEvent>
 #include <QMessageBox>
-#include <QtConcurrentRun>
+#include <QtConcurrent/QtConcurrent>
 #include <managers/facialrecognitionmanager.h>
 #include <managers/gpiomanager.h>
 #include <windows/mainwindow.h>

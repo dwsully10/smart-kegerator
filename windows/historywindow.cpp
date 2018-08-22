@@ -3,7 +3,7 @@
 #include <app.h>
 #include <shared.h>
 #include <QStyledItemDelegate>
-#include <QtConcurrentRun>
+#include <QtConcurrent/QtConcurrent>
 #include <QFont>
 #include <QCloseEvent>
 #include <managers/flowmetermanager.h>

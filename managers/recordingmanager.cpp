@@ -1,7 +1,7 @@
 #include "recordingmanager.h"
 #include "raspicamcv/raspicvcam.h"
 #include "data/settings.h"
-#include "QtConcurrentRun"
+#include "QtConcurrent/QtConcurrent"
 #include "QDir"
 
 #include "opencv2/core/core.hpp"
