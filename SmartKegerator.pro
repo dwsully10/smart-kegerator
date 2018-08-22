@@ -19,7 +19,6 @@ SOURCES += main.cpp\
     app.cpp \
     data/settings.cpp \
     windows/settingswindow.cpp \
-    windows/userswindow.cpp \
     data/dataobject.cpp \
     raspicamcv/RaspiTexUtil.c \
     raspicamcv/tga.c \
@@ -58,7 +57,6 @@ SOURCES += main.cpp\
     widgets/filters/kegfilterbutton.cpp \
     widgets/filters/datefilterbutton.cpp \
     widgets/graph/qwtgraphframe.cpp \
-    windows/trainingwindow.cpp \
     raspicamcv/raspicvcam.cpp \
     videoplayer.cpp \
     managers/recordingmanager.cpp
@@ -69,7 +67,6 @@ HEADERS  += windows/mainwindow.h \
     data/settings.h \
     data/pour.h \
     windows/settingswindow.h \
-    windows/userswindow.h \
     data/dataobject.h \
     raspicvcam.h \
     raspicamcv/tga.h \
@@ -110,7 +107,6 @@ HEADERS  += windows/mainwindow.h \
     widgets/filters/datefilterbutton.h \
     utilities.h \
     widgets/graph/qwtgraphframe.h \
-    windows/trainingwindow.h \
     raspicamcv/raspicvcam.h \
     videoplayer.h \
     managers/recordingmanager.h \
@@ -119,11 +115,9 @@ HEADERS  += windows/mainwindow.h \
 FORMS    += windows/mainwindow.ui \
     windows/pouringwindow.ui \
     windows/settingswindow.ui \
-    windows/userswindow.ui \
     windows/historywindow.ui \
     windows/keyboarddialog.ui \
-    windows/optionselectdialog.ui \
-    windows/trainingwindow.ui
+    windows/optionselectdialog.ui
 
 OTHER_FILES += \
     config/users.txt \

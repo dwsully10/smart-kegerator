@@ -1,27 +1,18 @@
 {
+    ABV:4.50000
+    Company:Love City Brewing Company
+    IBU:30
     Id:0
-    Name:African Amber
-    Company:Mac & Jacks
-    Location:Redmond, WA
-    ABV:5.2
-    IBU:52
-    Type:Amber Ale
+    Location:Philadelphia, PA
+    Name:Reckless IPA
+    Type:Session IPA
 }
 {
+    ABV:6.70000
+    Company:Victory Brewing Company
+    IBU:50
     Id:1
-    Name:Intervention
-    Company:Triple Horn
-    Location:Woodinville, WA
-    ABV:9.8
-    IBU:60
-    Type:IPA
-}
-{
-    Id:2
-    Name:Filthy Hoppin IPA
-    Company:Dirty Bucket
-    Location:Woodinville, WA
-    ABV:6.4
-    IBU:72
-    Type:IPA
+    Location:Downingtown, PA
+    Name:HopDevil
+    Type:American IPA
 }

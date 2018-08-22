@@ -40,7 +40,6 @@ private slots:
     void on_closeButton_clicked();
     void on_settingsButton_clicked();
     void on_historyButton_clicked();
-    void on_usersButton_clicked();
 
     void on_temperatureButton_clicked();
 
@@ -76,7 +75,6 @@ public:
                 QLabel *name,
                 QLabel *company,
                 QLabel *city,
-                QLabel *price,
                 QLabel *abv,
                 QLabel *ibu,
                 QLabel *bought,
@@ -88,7 +86,6 @@ public:
     QLabel* cityField;
     QLabel* ibuField;
     QLabel* abvField;
-    QLabel* priceField;
     QLabel* boughtField;
     QLabel* emptyField;
     QLabel* remainingField;

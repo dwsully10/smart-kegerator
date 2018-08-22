@@ -69,10 +69,11 @@ QScrollBar:horizontal, QScrollBar:vertical
     </property>
     <property name="font">
      <font>
-      <family>URW Gothic L</family>
-      <pointsize>16</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
+      <family>PibotoLt</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
       <stylestrategy>PreferAntialias</stylestrategy>
      </font>
     </property>
@@ -80,7 +81,7 @@ QScrollBar:horizontal, QScrollBar:vertical
      <string>background-color:rgb(0,0,0,0);</string>
     </property>
     <property name="text">
-     <string>TripleHorn</string>
+     <string>Love City Brewing Company</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -139,7 +140,7 @@ QScrollBar:horizontal, QScrollBar:vertical
      <string>background-color:rgb(0,0,0,0);</string>
     </property>
     <property name="text">
-     <string>African Amber</string>
+     <string>Hop Devil</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -156,10 +157,11 @@ QScrollBar:horizontal, QScrollBar:vertical
     </property>
     <property name="font">
      <font>
-      <family>URW Gothic L</family>
-      <pointsize>16</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
+      <family>PibotoLt</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
       <stylestrategy>PreferAntialias</stylestrategy>
      </font>
     </property>
@@ -167,7 +169,7 @@ QScrollBar:horizontal, QScrollBar:vertical
      <string>background-color:rgb(0,0,0,0);</string>
     </property>
     <property name="text">
-     <string>Mac &amp; Jacks</string>
+     <string>VIctory Brewing Company</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -195,7 +197,7 @@ QScrollBar:horizontal, QScrollBar:vertical
      <string notr="true">background-color:rgb(0,0,0,0);</string>
     </property>
     <property name="text">
-     <string>Intervention</string>
+     <string>Reckless IPA</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -298,7 +300,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QWidget" name="leftKegFill" native="true">
     <property name="geometry">
      <rect>
-      <x>223</x>
+      <x>333</x>
       <y>136</y>
       <width>56</width>
       <height>89</height>
@@ -311,7 +313,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QWidget" name="rightKegFill" native="true">
     <property name="geometry">
      <rect>
-      <x>522</x>
+      <x>412</x>
       <y>136</y>
       <width>56</width>
       <height>89</height>
@@ -368,62 +370,6 @@ QScrollBar:horizontal, QScrollBar:vertical
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="historyButton">
-    <property name="geometry">
-     <rect>
-      <x>295</x>
-      <y>130</y>
-      <width>100</width>
-      <height>100</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>30</pointsize>
-     </font>
-    </property>
-    <property name="focusPolicy">
-     <enum>Qt::NoFocus</enum>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/HistoryButton.png);background-color:rgb(0,0,0,0);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="flat">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="usersButton">
-    <property name="geometry">
-     <rect>
-      <x>405</x>
-      <y>130</y>
-      <width>100</width>
-      <height>100</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="focusPolicy">
-     <enum>Qt::NoFocus</enum>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:rgb(0,0,0,0);background-image: url(:/images/UsersButton.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="flat">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="QPushButton" name="settingsButton">
     <property name="geometry">
      <rect>
@@ -451,34 +397,6 @@ QScrollBar:horizontal, QScrollBar:vertical
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="leftPriceField">
-    <property name="geometry">
-     <rect>
-      <x>15</x>
-      <y>140</y>
-      <width>70</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>URW Gothic L</family>
-      <pointsize>16</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
-      <stylestrategy>PreferAntialias</stylestrategy>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string>background-color:rgb(0,0,0,0);</string>
-    </property>
-    <property name="text">
-     <string>-</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignHCenter|Qt::AlignTop</set>
-    </property>
-   </widget>
    <widget class="QLabel" name="leftCityField">
     <property name="geometry">
      <rect>
@@ -501,7 +419,7 @@ QScrollBar:horizontal, QScrollBar:vertical
      <string notr="true">background-color:rgb(0,0,0,0);color:rgb(200,200,200,130);</string>
     </property>
     <property name="text">
-     <string>Woodinville, WA</string>
+     <string>Philadelphia, PA</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -529,44 +447,16 @@ QScrollBar:horizontal, QScrollBar:vertical
      <string notr="true">background-color:rgb(0,0,0,0);color:rgb(200,200,200,130);</string>
     </property>
     <property name="text">
-     <string>Redmond, WA</string>
+     <string>Downingtown, PA</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="rightPriceField">
-    <property name="geometry">
-     <rect>
-      <x>586</x>
-      <y>140</y>
-      <width>70</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>URW Gothic L</family>
-      <pointsize>16</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
-      <stylestrategy>PreferAntialias</stylestrategy>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string>background-color:rgb(0,0,0,0);</string>
-    </property>
-    <property name="text">
-     <string>-</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignHCenter|Qt::AlignTop</set>
-    </property>
-   </widget>
    <widget class="QLabel" name="leftIbuField">
     <property name="geometry">
      <rect>
-      <x>95</x>
+      <x>205</x>
       <y>140</y>
       <width>50</width>
       <height>30</height>
@@ -594,7 +484,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="leftAbvField">
     <property name="geometry">
      <rect>
-      <x>156</x>
+      <x>266</x>
       <y>140</y>
       <width>60</width>
       <height>30</height>
@@ -622,7 +512,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="leftBoughtField">
     <property name="geometry">
      <rect>
-      <x>12</x>
+      <x>180</x>
       <y>185</y>
       <width>100</width>
       <height>30</height>
@@ -650,7 +540,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="leftEmptyField">
     <property name="geometry">
      <rect>
-      <x>120</x>
+      <x>245</x>
       <y>185</y>
       <width>100</width>
       <height>30</height>
@@ -678,7 +568,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="rightIbuField">
     <property name="geometry">
      <rect>
-      <x>665</x>
+      <x>489</x>
       <y>140</y>
       <width>50</width>
       <height>30</height>
@@ -706,7 +596,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="rightAbvField">
     <property name="geometry">
      <rect>
-      <x>724</x>
+      <x>548</x>
       <y>140</y>
       <width>60</width>
       <height>30</height>
@@ -734,7 +624,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="rightBoughtField">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>464</x>
       <y>185</y>
       <width>100</width>
       <height>30</height>
@@ -762,7 +652,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="rightEmptyField">
     <property name="geometry">
      <rect>
-      <x>689</x>
+      <x>528</x>
       <y>185</y>
       <width>100</width>
       <height>30</height>
@@ -790,11 +680,17 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="rightLogo">
     <property name="geometry">
      <rect>
-      <x>685</x>
+      <x>644</x>
       <y>15</y>
-      <width>100</width>
-      <height>100</height>
+      <width>141</width>
+      <height>201</height>
      </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
     </property>
     <property name="frameShape">
      <enum>QFrame::Box</enum>
@@ -808,8 +704,8 @@ QScrollBar:horizontal, QScrollBar:vertical
      <rect>
       <x>15</x>
       <y>15</y>
-      <width>100</width>
-      <height>100</height>
+      <width>141</width>
+      <height>201</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -928,37 +824,10 @@ QScrollBar:horizontal, QScrollBar:vertical
      <set>Qt::NoTextInteraction</set>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>16</x>
-      <y>160</y>
-      <width>70</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Sans Serif</family>
-      <weight>50</weight>
-      <bold>false</bold>
-      <stylestrategy>PreferAntialias</stylestrategy>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:rgb(0,0,0,0);color:rgb(200,200,200,130);</string>
-    </property>
-    <property name="text">
-     <string>per pint</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>91</x>
+      <x>201</x>
       <y>160</y>
       <width>60</width>
       <height>20</height>
@@ -985,7 +854,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>148</x>
+      <x>258</x>
       <y>160</y>
       <width>70</width>
       <height>20</height>
@@ -1012,7 +881,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>26</x>
+      <x>194</x>
       <y>206</y>
       <width>70</width>
       <height>20</height>
@@ -1039,7 +908,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>130</x>
+      <x>255</x>
       <y>206</y>
       <width>80</width>
       <height>20</height>
@@ -1066,7 +935,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>661</x>
+      <x>485</x>
       <y>160</y>
       <width>60</width>
       <height>20</height>
@@ -1093,7 +962,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>716</x>
+      <x>540</x>
       <y>160</y>
       <width>70</width>
       <height>20</height>
@@ -1120,7 +989,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="label_10">
     <property name="geometry">
      <rect>
-      <x>596</x>
+      <x>478</x>
       <y>206</y>
       <width>70</width>
       <height>20</height>
@@ -1147,7 +1016,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="label_11">
     <property name="geometry">
      <rect>
-      <x>700</x>
+      <x>539</x>
       <y>206</y>
       <width>80</width>
       <height>20</height>
@@ -1166,33 +1035,6 @@ QScrollBar:horizontal, QScrollBar:vertical
     </property>
     <property name="text">
      <string>empty</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_12">
-    <property name="geometry">
-     <rect>
-      <x>586</x>
-      <y>160</y>
-      <width>70</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Sans Serif</family>
-      <weight>50</weight>
-      <bold>false</bold>
-      <stylestrategy>PreferAntialias</stylestrategy>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:rgb(0,0,0,0);color:rgb(200,200,200,130);</string>
-    </property>
-    <property name="text">
-     <string>per pint</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -1245,7 +1087,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="remainingLeftField">
     <property name="geometry">
      <rect>
-      <x>220</x>
+      <x>330</x>
       <y>208</y>
       <width>60</width>
       <height>20</height>
@@ -1273,7 +1115,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="remainingRightField">
     <property name="geometry">
      <rect>
-      <x>520</x>
+      <x>410</x>
       <y>208</y>
       <width>60</width>
       <height>20</height>
@@ -1304,7 +1146,7 @@ QScrollBar:horizontal, QScrollBar:vertical
       <x>10</x>
       <y>10</y>
       <width>385</width>
-      <height>110</height>
+      <height>221</height>
      </rect>
     </property>
     <property name="text">
@@ -1314,36 +1156,10 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="backgroundTile_2">
     <property name="geometry">
      <rect>
-      <x>405</x>
-      <y>10</y>
+      <x>420</x>
+      <y>0</y>
       <width>385</width>
-      <height>110</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="backgroundTile_3">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>130</y>
-      <width>275</width>
-      <height>100</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="backgroundTile_4">
-    <property name="geometry">
-     <rect>
-      <x>515</x>
-      <y>130</y>
-      <width>275</width>
-      <height>100</height>
+      <height>221</height>
      </rect>
     </property>
     <property name="text">
@@ -1411,7 +1227,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="leftKegBackground">
     <property name="geometry">
      <rect>
-      <x>223</x>
+      <x>333</x>
       <y>136</y>
       <width>56</width>
       <height>89</height>
@@ -1430,7 +1246,7 @@ QScrollBar:horizontal, QScrollBar:vertical
    <widget class="QLabel" name="rightKegBackground">
     <property name="geometry">
      <rect>
-      <x>522</x>
+      <x>412</x>
       <y>136</y>
       <width>56</width>
       <height>89</height>
@@ -1446,9 +1262,7 @@ QScrollBar:horizontal, QScrollBar:vertical
      <string/>
     </property>
    </widget>
-   <zorder>backgroundTile_4</zorder>
    <zorder>rightKegBackground</zorder>
-   <zorder>backgroundTile_3</zorder>
    <zorder>leftKegBackground</zorder>
    <zorder>temperatureButton</zorder>
    <zorder>humidityButton</zorder>
@@ -1470,11 +1284,8 @@ QScrollBar:horizontal, QScrollBar:vertical
    <zorder>rightKegFill</zorder>
    <zorder>closeButton</zorder>
    <zorder>uptimeField</zorder>
-   <zorder>historyButton</zorder>
-   <zorder>leftPriceField</zorder>
    <zorder>leftCityField</zorder>
    <zorder>rightCityField</zorder>
-   <zorder>rightPriceField</zorder>
    <zorder>leftIbuField</zorder>
    <zorder>leftAbvField</zorder>
    <zorder>leftBoughtField</zorder>
@@ -1483,7 +1294,6 @@ QScrollBar:horizontal, QScrollBar:vertical
    <zorder>rightAbvField</zorder>
    <zorder>rightBoughtField</zorder>
    <zorder>rightEmptyField</zorder>
-   <zorder>usersButton</zorder>
    <zorder>rightLogo</zorder>
    <zorder>leftLogo</zorder>
    <zorder>graphFrame</zorder>
@@ -1491,7 +1301,6 @@ QScrollBar:horizontal, QScrollBar:vertical
    <zorder>leftBeerStatsFrame</zorder>
    <zorder>tempLabel</zorder>
    <zorder>humidityLabel</zorder>
-   <zorder>label_3</zorder>
    <zorder>label_4</zorder>
    <zorder>label_5</zorder>
    <zorder>label_6</zorder>
@@ -1500,7 +1309,6 @@ QScrollBar:horizontal, QScrollBar:vertical
    <zorder>label_9</zorder>
    <zorder>label_10</zorder>
    <zorder>label_11</zorder>
-   <zorder>label_12</zorder>
    <zorder>remainingLeftField</zorder>
    <zorder>remainingRightField</zorder>
    <zorder>settingsButton</zorder>

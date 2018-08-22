@@ -87,6 +87,7 @@ void FlowMeterManager::onFlowMeterData()
 
 void FlowMeterManager::beginPour(BeerTapSide tapSide)
 {
+    printf("beginning pour");
     CurrentTapSide = tapSide;
     CurrentKeg = CurrentTapSide == RIGHT_TAP ? Keg::RightKeg : Keg::LeftKeg;
 

@@ -18,7 +18,6 @@
 #include <data/user.h>
 #include <data/constants.h>
 #include <widgets/graph/graph.h>
-#include <windows/userswindow.h>
 #include <windows/historywindow.h>
 #include <windows/settingswindow.h>
 #include <windows/keyboarddialog.h>
@@ -48,24 +47,22 @@ MainWindow::MainWindow(QWidget *parent) :
                                   ui->leftBeerNameField,
                                   ui->leftBeerCompanyField,
                                   ui->leftCityField,
-                                  ui->leftPriceField,
                                   ui->leftAbvField,
                                   ui->leftIbuField,
                                   ui->leftBoughtField,
-                                  ui->leftEmptyField,
-                                  ui->remainingLeftField);
+				  ui->leftEmptyField,
+				  ui->remainingLeftField);
 
     rightDisplay = new BeerDisplay(ui->rightKegFill,
                                    ui->rightLogo,
                                    ui->rightBeerNameField,
                                    ui->rightBeerCompanyField,
                                    ui->rightCityField,
-                                   ui->rightPriceField,
                                    ui->rightAbvField,
                                    ui->rightIbuField,
                                    ui->rightBoughtField,
-                                   ui->rightEmptyField,
-                                   ui->remainingRightField);
+				   ui->rightEmptyField,
+				   ui->remainingRightField);
 
 
     connect(&updateTimer, SIGNAL(timeout()), this, SLOT(updateUI()));
@@ -93,12 +90,6 @@ void MainWindow::onTempData()
 void MainWindow::on_historyButton_clicked()
 {
     HistoryWindow::Instance->ShowWindow();
-    HideWindow();
-}
-
-void MainWindow::on_usersButton_clicked()
-{
-    UsersWindow::Instance->ShowWindow();
     HideWindow();
 }
 
@@ -254,7 +245,6 @@ BeerDisplay::BeerDisplay(QWidget* keg,
                          QLabel *name,
                          QLabel *company,
                          QLabel *city,
-                         QLabel *price,
                          QLabel *abv,
                          QLabel *ibu,
                          QLabel *bought,
@@ -271,7 +261,6 @@ BeerDisplay::BeerDisplay(QWidget* keg,
     nameField = name;
     companyField = company;
     cityField = city;
-    priceField = price;
     abvField = abv;
     ibuField = ibu;
     boughtField = bought;
@@ -287,7 +276,6 @@ void BeerDisplay::update(Keg* keg)
         nameField->setText("");
         companyField->setText("");
         cityField->setText("");
-        priceField->setText("-");
         abvField->setText("-");
         ibuField->setText("-");
         boughtField->setText("-");
@@ -306,7 +294,6 @@ void BeerDisplay::update(Keg* keg)
         nameField->setText(beer->Name.c_str());
         companyField->setText(beer->Company.c_str());
         cityField->setText(beer->Location.c_str());
-        priceField->setText(QString("$%1").arg(QString::number(keg->PricePerPint, 'f', 2)));
         abvField->setText(QString("%1%").arg(QString::number(beer->ABV, 'f', 1)));
         ibuField->setText(QString("%1").arg(beer->IBU));
         boughtField->setText(QString("%1").arg(keg->DateBought.c_str()));
